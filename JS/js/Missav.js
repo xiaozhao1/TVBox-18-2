@@ -1,7 +1,7 @@
 var rule = {
     title:'Missav',
     host:'https://missav.ws,
-	searchUrl:'/cn/search/**',
+	searchUrl:'/dm*/cn/search/**',
     url:'/cn/fyclass?page=fypage',
     headers:{
         'User-Agent':'MOBILE_UA'
