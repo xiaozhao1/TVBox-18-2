@@ -1,5 +1,5 @@
 {
-  "name": "🔞 MissAV + 多成人 DRPY 配置",
+  "name": "🔞 MissAV + 多成人 DRPY 加速配置",
   "wallpaper": "https://picsum.photos/1920/1080",
   "sites": [
     {
@@ -7,7 +7,7 @@
       "name": "🔞 MissAV[DRPY]",
       "type": 3,
       "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy.min.js",
-      "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Dong-learn9/TVBox-zyjk/main/JS/js/Missav.js",
+      "ext": "https://cdn.jsdelivr.net/gh/Dong-learn9/TVBox-zyjk@master/JS/js/Missav.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -17,7 +17,7 @@
       "name": "🔞 Jable[DRPY]",
       "type": 3,
       "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy.min.js",
-      "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Dong-learn9/TVBox-zyjk/main/JS/js/Jable.js",
+      "ext": "https://cdn.jsdelivr.net/gh/Dong-learn9/TVBox-zyjk@master/JS/js/Jable.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -27,7 +27,7 @@
       "name": "🔞 JavBus[DRPY]",
       "type": 3,
       "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy.min.js",
-      "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Dong-learn9/TVBox-zyjk/main/JS/js/JavBus.js",
+      "ext": "https://cdn.jsdelivr.net/gh/Dong-learn9/TVBox-zyjk@master/JS/js/JavBus.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -37,7 +37,17 @@
       "name": "🔞 91porn[DRPY]",
       "type": 3,
       "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy.min.js",
-      "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Dong-learn9/TVBox-zyjk/main/JS/js/91porn.js",
+      "ext": "https://cdn.jsdelivr.net/gh/Dong-learn9/TVBox-zyjk@master/JS/js/91porn.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "drpy_JavDb",
+      "name": "🔞 JavDB[DRPY]",
+      "type": 3,
+      "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy.min.js",
+      "ext": "https://cdn.jsdelivr.net/gh/Dong-learn9/TVBox-zyjk@master/JS/js/JavDb.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -46,8 +56,9 @@
   "parse": [
     {"name": "解析1", "url": "https://jx.jsonplayer.top/jx.php?url="},
     {"name": "解析2", "url": "https://jx.playerjy.com/jx.php?url="},
-    {"name": "解析3", "url": "https://jx.7777ys.com/jx.php?url="}
+    {"name": "解析3", "url": "https://jx.7777ys.com/jx.php?url="},
+    {"name": "解析4", "url": "https://jx.xjqxz.top/jx.php?url="}
   ],
-  "flags": ["4K", "1080P", "HD", "中字", "无码", "有码"],
+  "flags": ["4K", "1080P", "HD", "中字", "无码", "有码", "VR"],
   "ads": []
 }
