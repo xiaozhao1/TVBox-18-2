@@ -1,5 +1,5 @@
 {
-  "name": "🔞 MissAV DRPY 测试配置",
+  "name": "🔞 MissAV 防盗链优化配置",
   "sites": [
     {
       "key": "MissAV_DRPY",
@@ -14,7 +14,15 @@
   ],
   "parse": [
     {"name": "解析1", "url": "https://jx.jsonplayer.top/jx.php?url="},
-    {"name": "解析2", "url": "https://jx.playerjy.com/jx.php?url="}
+    {"name": "解析2", "url": "https://jx.playerjy.com/jx.php?url="},
+    {"name": "解析3", "url": "https://jx.7777ys.com/jx.php?url="}
   ],
+  "player": {
+    "type": "default",
+    "header": {
+      "Referer": "https://missav.com/",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+    }
+  },
   "flags": ["4K", "1080P", "HD", "中字", "无码"]
 }
