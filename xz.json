@@ -1,36 +1,46 @@
 {
-  "name": "🔞 MissAV + 多成人源（已优化显示问题）",
+  "name": "🔞 MissAV + 多成人 DRPY 配置",
   "wallpaper": "https://picsum.photos/1920/1080",
-  "spider": "./jar/XBPQ.jar",
   "sites": [
     {
       "key": "drpy_Missav",
-      "name": "🔞 MissAV[DRPY 推荐]",
+      "name": "🔞 MissAV[DRPY]",
       "type": 3,
-      "api": "./JS/lib/drpy.min.js",
-      "ext": "./JS/js/Missav.js",
+      "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy.min.js",
+      "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Dong-learn9/TVBox-zyjk/main/JS/js/Missav.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
     },
     {
-      "key": "MissAV",
-      "name": "🔞 MissAV[CSP]",
+      "key": "drpy_Jable",
+      "name": "🔞 Jable[DRPY]",
       "type": 3,
-      "api": "csp_Miss",
-      "jar": "./jar/XBPQ.jar",
+      "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy.min.js",
+      "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Dong-learn9/TVBox-zyjk/main/JS/js/Jable.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
     },
     {
-      "key": "Jable",
-      "name": "🔞 Jable",
+      "key": "drpy_JavBus",
+      "name": "🔞 JavBus[DRPY]",
       "type": 3,
-      "api": "csp_Jable",
-      "jar": "./jar/XBPQ.jar",
+      "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy.min.js",
+      "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Dong-learn9/TVBox-zyjk/main/JS/js/JavBus.js",
       "searchable": 1,
-      "quickSearch": 1
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "drpy_91porn",
+      "name": "🔞 91porn[DRPY]",
+      "type": 3,
+      "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy.min.js",
+      "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Dong-learn9/TVBox-zyjk/main/JS/js/91porn.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     }
   ],
   "parse": [
