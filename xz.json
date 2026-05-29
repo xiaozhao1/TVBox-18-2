@@ -1,0 +1,168 @@
+{
+  "name": "🔞 MissAV + Jable + 多AV 超丰富配置",
+  "wallpaper": "https://picsum.photos/1920/1080",
+  "sites": [
+    {
+      "key": "drpy_Missav",
+      "name": "🔞 MissAV[DRPY]",
+      "type": 3,
+      "api": "./JS/lib/drpy.min.js",
+      "ext": "./JS/js/Missav.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "MissAV",
+      "name": "🔞 MissAV[CSP]",
+      "type": 3,
+      "api": "csp_Miss",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "Jable",
+      "name": "🔞 Jable",
+      "type": 3,
+      "api": "csp_Jable",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "JavDb",
+      "name": "🔞 JavDB",
+      "type": 3,
+      "api": "csp_JavDb",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "JavBus",
+      "name": "🔞 JavBus",
+      "type": 3,
+      "api": "csp_JavBus",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "JavLibrary",
+      "name": "🔞 JavLibrary",
+      "type": 3,
+      "api": "csp_JavLib",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "Hanime",
+      "name": "🔞 Hanime",
+      "type": 3,
+      "api": "csp_Hanime",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "Xojav",
+      "name": "🔞 XOJAV",
+      "type": 3,
+      "api": "csp_Xojav",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "FC2",
+      "name": "🔞 FC2",
+      "type": 3,
+      "api": "csp_FC2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "AV01",
+      "name": "🔞 AV01",
+      "type": 3,
+      "api": "./JS/lib/drpy.min.js",
+      "ext": "./JS/js/AV01.js",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "XVideos",
+      "name": "🔞 XVideos",
+      "type": 3,
+      "api": "csp_XVideos",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "Pornhub",
+      "name": "🔞 Pornhub",
+      "type": 3,
+      "api": "csp_Pornhub",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "XNXX",
+      "name": "🔞 XNXX",
+      "type": 3,
+      "api": "csp_XNXX",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "SpankBang",
+      "name": "🔞 SpankBang",
+      "type": 3,
+      "api": "csp_SpankBang",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "XHamster",
+      "name": "🔞 XHamster",
+      "type": 3,
+      "api": "csp_XHamster",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "91porn",
+      "name": "🔞 91porn",
+      "type": 3,
+      "api": "csp_91porn",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "Avple",
+      "name": "🔞 Avple",
+      "type": 3,
+      "api": "csp_Avple",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "TokyoHot",
+      "name": "🔞 TokyoHot",
+      "type": 3,
+      "api": "csp_TokyoHot",
+      "searchable": 1,
+      "quickSearch": 1
+    }
+  ],
+  "parse": [
+    {"name": "解析1", "url": "https://jx.jsonplayer.top/jx.php?url="},
+    {"name": "解析2", "url": "https://jx.playerjy.com/jx.php?url="},
+    {"name": "解析3", "url": "https://jx.7777ys.com/jx.php?url="}
+  ],
+  "flags": ["4K", "1080P", "HD", "标清", "官方", "中字", "无码", "有码", "VR", "VR"],
+  "ads": []
+}
