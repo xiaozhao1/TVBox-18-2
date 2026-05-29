@@ -1,5 +1,5 @@
 {
-  "name": "🔞 MissAV + 多成人 DRPY 加速配置",
+  "name": "🔞 MissAV + 多成人 影音壳子专用",
   "wallpaper": "https://picsum.photos/1920/1080",
   "sites": [
     {
@@ -33,21 +33,21 @@
       "filterable": 1
     },
     {
-      "key": "drpy_91porn",
-      "name": "🔞 91porn[DRPY]",
-      "type": 3,
-      "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy.min.js",
-      "ext": "https://cdn.jsdelivr.net/gh/Dong-learn9/TVBox-zyjk@master/JS/js/91porn.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "drpy_JavDb",
       "name": "🔞 JavDB[DRPY]",
       "type": 3,
       "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy.min.js",
       "ext": "https://cdn.jsdelivr.net/gh/Dong-learn9/TVBox-zyjk@master/JS/js/JavDb.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "drpy_91porn",
+      "name": "🔞 91porn[DRPY]",
+      "type": 3,
+      "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy.min.js",
+      "ext": "https://cdn.jsdelivr.net/gh/Dong-learn9/TVBox-zyjk@master/JS/js/91porn.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
