@@ -1,10 +1,11 @@
 {
-  "name": "🔞 MissAV + Jable 超丰富成人配置（带强解析）",
+  "name": "🔞 MissAV + 多成人源（已优化显示问题）",
   "wallpaper": "https://picsum.photos/1920/1080",
+  "spider": "./jar/XBPQ.jar",
   "sites": [
     {
       "key": "drpy_Missav",
-      "name": "🔞 MissAV[DRPY]",
+      "name": "🔞 MissAV[DRPY 推荐]",
       "type": 3,
       "api": "./JS/lib/drpy.min.js",
       "ext": "./JS/js/Missav.js",
@@ -17,6 +18,7 @@
       "name": "🔞 MissAV[CSP]",
       "type": 3,
       "api": "csp_Miss",
+      "jar": "./jar/XBPQ.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -26,66 +28,7 @@
       "name": "🔞 Jable",
       "type": 3,
       "api": "csp_Jable",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "JavDb",
-      "name": "🔞 JavDB",
-      "type": 3,
-      "api": "csp_JavDb",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "JavBus",
-      "name": "🔞 JavBus",
-      "type": 3,
-      "api": "csp_JavBus",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "Hanime",
-      "name": "🔞 Hanime",
-      "type": 3,
-      "api": "csp_Hanime",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "XVideos",
-      "name": "🔞 XVideos",
-      "type": 3,
-      "api": "csp_XVideos",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
-      "key": "Pornhub",
-      "name": "🔞 Pornhub",
-      "type": 3,
-      "api": "csp_Pornhub",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
-      "key": "SpankBang",
-      "name": "🔞 SpankBang",
-      "type": 3,
-      "api": "csp_SpankBang",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
-      "key": "91porn",
-      "name": "🔞 91porn",
-      "type": 3,
-      "api": "csp_91porn",
+      "jar": "./jar/XBPQ.jar",
       "searchable": 1,
       "quickSearch": 1
     }
@@ -93,10 +36,8 @@
   "parse": [
     {"name": "解析1", "url": "https://jx.jsonplayer.top/jx.php?url="},
     {"name": "解析2", "url": "https://jx.playerjy.com/jx.php?url="},
-    {"name": "解析3", "url": "https://jx.7777ys.com/jx.php?url="},
-    {"name": "解析4", "url": "https://jx.xjqxz.top/jx.php?url="},
-    {"name": "解析5", "url": "https://parse.ikun.tv/jx.php?url="}
+    {"name": "解析3", "url": "https://jx.7777ys.com/jx.php?url="}
   ],
-  "flags": ["4K", "1080P", "HD", "标清", "中字", "无码", "有码", "VR"],
+  "flags": ["4K", "1080P", "HD", "中字", "无码", "有码"],
   "ads": []
 }
